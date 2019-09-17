@@ -22,17 +22,26 @@ h1 {
   margin-right: auto;
 }
 
-nav {
-  padding: 10px;
-  background-color: burlywood;
+nav, figcaption{
   text-align: center;
 }
 
-#details {
-  display: block;
 
+nav a{
+  padding: 0 10px;
+  background-color: burlywood;
+  
 }
 
-#featured-property {
+#details div {
+  display: block;
+  background-color: red;
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+
+#featured-property p {
   width: 800px;
+  
 }
